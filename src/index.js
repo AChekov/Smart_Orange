@@ -1,3 +1,2 @@
-import "./css/common.scss";
-
-console.log("this is index.js Hello");
+import 'normalize.css'
+import './styles/main.scss';

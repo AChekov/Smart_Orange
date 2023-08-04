@@ -1,31 +1,22 @@
 {
-  "name": "smart_orange",
-  "version": "1.0.0",
-  "description": "",
+  "name": "name-project",
   "scripts": {
-    "dev": "webpack-dev-server --mode=development",
-    "prod": "webpack --mode=production"
+    "build": "webpack",
+    "dev": "webpack serve --env develop"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AChekov/Smart_Orange.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AChekov/Smart_Orange/issues"
-  },
-  "homepage": "https://github.com/AChekov/Smart_Orange#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
-    "babel-loader": "^9.1.3",
-    "css-loader": "^6.8.1",
-    "sass": "^1.64.2",
-    "sass-loader": "^13.3.2",
-    "style-loader": "^3.3.3",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.1.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "normalize.css": "^8.0.1"
   }
 }
