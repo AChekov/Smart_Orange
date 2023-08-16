@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  // &__logo {
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   fill: "black";
+  // }
+  // &__nav {
+  //   display: flex;
+  // }
+}
+
+.header_logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 330px;
+}
+
+.header_list {
+  display: flex;
+  // justify-content: flex-start;
+  // margin-right: 60px;
+}
+
+.header_item:not(:last-child) {
+  margin-right: 60px;
+  color: #333333;
+}

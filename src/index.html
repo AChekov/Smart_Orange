@@ -34,16 +34,25 @@
 
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Title</title>
+    <title>Project Home</title>
   </head>
   <body>
     <!-- <include src="./partials/header.html"></include> -->
-    <header>
-      <a href="#" class="header_logo"></a>
-      <nav>
+    <header class="header">
+      <a href="index.html" class="header_logo">
+        <svg
+          class="logo__icon"
+          width="70px"
+          height="44px"
+          enable-background="new 0 0 24 24"
+        >
+          <use href="./images/logo.svg"></use>
+        </svg>
+      </a>
+      <nav class="header_nav">
         <ul class="header_list">
           <li class="header_item">
-            <a href="#" class="header_link">Главная</a>
+            <a href="index.html" class="header_link">Главная</a>
           </li>
           <li class="header_item">
             <a href="#" class="header_link">Галерея</a>

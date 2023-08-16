@@ -1,3 +1,11 @@
-body {
-  font-family: "TT Hoves Pro Trial", sans-serif;
-}
+// $text-dark: #333333;
+// $text-grey: #bdbdbd;
+// $red: #c30000;
+// $white: #ffffff;
+// $grey-light: #c4c4c4;
+// $dark: #2c2c2c;
+
+@import "./base/common";
+@import "./base/container";
+
+@import "./header";
